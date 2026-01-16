@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    min-height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    text-align: center;
+    color: #ffffff;
+    background: linear-gradient(135deg, #2c2c2c, #5f5f4f);
+}
+
+.header h1{
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.header p{
+    font-size: 1.1rem;
+    max-width: 600px;
+    opacity: 0.9;
+}

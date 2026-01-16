@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.logBtn{
+    width: 80px;
+    height: 32px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    background-color: #473100;
+    cursor: pointer;
+    border: none;
+}
+
+.logBtn:hover{
+    background-color: white;
+    color: #473100;
+    border: 2px solid black;
+}
+
+input{
+    width: 180px;
+    height: 32px;
+    border: 2px solid rgba(172, 172, 172, 0.753);
+    border-radius: 4px;
+    padding-left:10px;
+}
+input::placeholder{
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
